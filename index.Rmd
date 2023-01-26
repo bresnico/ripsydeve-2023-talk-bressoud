@@ -188,12 +188,12 @@ xaringanExtra::use_progress_bar(color = "#D2202B", location = "top", height = "1
 --
 
 ### Mots-clés
-Forces de caractère (ressources, forces personnelles), Climat de classe, Inclusion scolaire
+Forces de caractère (ressources, forces personnelles), Climat de classe, Relations interpersonnelles, Inclusion scolaire
 
 --
 ### Direction de thèse
 
-**Directrice principale :** Pr. Dr. Andrea Samson, université de Fribourg
+**Directrice principale :** Pr. Dr. Andrea C. Samson, université de Fribourg
 
 **Co-directrice :** Pr. Dr. Rebecca Shankland, université Lyon Lumière 2
 
@@ -257,6 +257,8 @@ class: left
 
 # Contexte
 
+- état des enjeux !
+- on a besoin de quoi ?
 
 ---
 class: title-slide, inverse
@@ -271,6 +273,13 @@ class: left
 
 # Zoom sur les forces de caractère
 
+- ce que c'est
+- contextualiser sur pouvoir d'agir et interdépendances positives
+-  un ouitl parmi d'autres
+- définir
+- origine
+- exemple
+
 
 ---
 class: title-slide, inverse
@@ -284,6 +293,12 @@ class: left
 
 # Matériel pédagogique
 
+- ce que c'est
+- coeur pédagogique
+- comment on l'a construit, POC, avec les gens
+- images
+- exemple d'activité
+
 ---
 class: title-slide, inverse
 background-image: url(`r unsplash_db$unsplash_url[5]`)
@@ -295,6 +310,15 @@ background-size: cover
 class: left
 
 # Premières données
+
+- notre question de recherche
+- nos H
+- notre design pour récolter
+
+- notre timeline (état actuel)
+
+- nos premières données
+- notre première interprétation
 
 ---
 class: title-slide, inverse
@@ -308,6 +332,10 @@ class: left
 
 # Perspectives
 
+- la suite pour cette étude
+
+- la suite de manière plus large sur la question générale
+
 ---
 class: title-slide, inverse
 background-image: url(`r unsplash_db$unsplash_url[7]`)
@@ -319,6 +347,11 @@ background-size: cover
 class: left
 
 # Divers
+
+- réflexions plus larges
+- rôle de l'école
+- CPS et école
+- moyens pédagogiques ?
 
 ---
 
