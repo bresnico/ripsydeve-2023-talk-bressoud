@@ -128,7 +128,7 @@ a, a > code {
 .inverse {
   background-color: var(--inverse-background-color);
   color: var(--inverse-text-color);
-  
+  text-shadow: 0 0 20px #333;
 }
 .inverse h1, .inverse h2, .inverse h3 {
   color: var(--inverse-header-color);

@@ -6,12 +6,16 @@ date: "26 juin 2023"
 team: "HEP-VS | PH-VS"
 coauthors: "Rebecca Shankland, Philippe Gay, Andrea C. Samson"
 github_id: "bresnico"
-github_repo: "archives"
+github_repo: "ripsydeve-2023-talk-bressoud"
 unsplash_app_id: "cvtne6r6JhQ2hYh_ZVw80BeNLVrvmDrDqKLP7qOhyyY"
 unsplash_id:
-  - AxLrxJz_sKU
-  - AxLrxJz_sKU
-  - AxLrxJz_sKU
+  - 2VMDforsMBI
+  - lVDnLUACI18
+  - Cecb0_8Hx-o
+  - 9OKGEVJiTKk
+  - KgLtFCgfC28
+  - mgfcRci18So
+  - a1O67ZQmaYc
 background_position: "1050px 20px"
 background_size: "100px"
 output:
@@ -135,15 +139,18 @@ style_duo_accent(
   primary_color = "#D2202B",
   secondary_color = "#D2202B",
   inverse_header_color = "#FFFFFF",
+  inverse_text_shadow = TRUE,
+  title_slide_text_color = "#FFFFFF",
   link_color = "#676C72",
     header_font_google = google_font("Josefin Sans")
 
 )
 ```
 
-class: hide_logo, title-slide, bottom
+class: hide_logo, inverse, title-slide, bottom
 background-image: url(`r unsplash_db$unsplash_url[1]`)
 background-size: cover
+
 
 # `r rmarkdown::metadata$title`
 
@@ -249,6 +256,69 @@ background-size: cover
 class: left
 
 # Contexte
+
+
+---
+class: title-slide, inverse
+background-image: url(`r unsplash_db$unsplash_url[3]`)
+background-size: cover
+
+# Zoom sur les forces de caractère
+
+
+---
+class: left
+
+# Zoom sur les forces de caractère
+
+
+---
+class: title-slide, inverse
+background-image: url(`r unsplash_db$unsplash_url[4]`)
+background-size: cover
+
+# Matériel pédagogique
+
+---
+class: left
+
+# Matériel pédagogique
+
+---
+class: title-slide, inverse
+background-image: url(`r unsplash_db$unsplash_url[5]`)
+background-size: cover
+
+# Premières données
+
+---
+class: left
+
+# Premières données
+
+---
+class: title-slide, inverse
+background-image: url(`r unsplash_db$unsplash_url[6]`)
+background-size: cover
+
+# Perspectives
+
+---
+class: left
+
+# Perspectives
+
+---
+class: title-slide, inverse
+background-image: url(`r unsplash_db$unsplash_url[7]`)
+background-size: cover
+
+# Divers
+
+---
+class: left
+
+# Divers
 
 ---
 
