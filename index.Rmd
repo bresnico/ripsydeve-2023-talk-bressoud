@@ -1,0 +1,273 @@
+---
+title: "A chacun ses forces et forts ensemble !"
+subtitle: "Intervention pédagogique visant à développer le climat de classe auprès de 8-12 ans"  
+author: "Nicolas Bressoud"
+date: "26 juin 2023"
+team: "HEP-VS | PH-VS"
+coauthors: "Rebecca Shankland, Philippe Gay, Andrea C. Samson"
+github_id: "bresnico"
+github_repo: "archives"
+unsplash_app_id: "cvtne6r6JhQ2hYh_ZVw80BeNLVrvmDrDqKLP7qOhyyY"
+unsplash_id:
+  - AxLrxJz_sKU
+  - AxLrxJz_sKU
+  - AxLrxJz_sKU
+background_position: "1050px 20px"
+background_size: "100px"
+output:
+  xaringan::moon_reader:
+    self_contained: false
+    css: ["default", "xaringan-themer.css"]
+    seal: false
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: false
+      navigation:
+        scroll: false # pour zoomer avec la souris
+---
+
+```{r unsplash, include=FALSE}
+
+# libraries----
+library(httr) # https://talks.andrewheiss.com/2022-seacen/presentation/#/title-slide
+library(jsonlite)
+library(tibble)
+
+# préparer les variables----
+
+unsplash_id <- rmarkdown::metadata$unsplash_id
+
+application_id <- rmarkdown::metadata$unsplash_app_id
+
+# préparer les outputs----
+
+# id photo 1
+
+temp_var <- unsplash_id[1]
+
+# se connecter à l'API et nourrir les outputs----
+
+# préparation
+
+api_url <- modify_url("https://api.unsplash.com/",
+                      path = paste0("photos/",temp_var),
+                      query = paste0("client_id=",application_id)
+                      )
+api_url
+
+GET(url = api_url)
+
+response <- GET (url = api_url)
+
+d <- content(response, as="text", encoding = "UTF-8")
+
+new <- fromJSON(d)
+
+# image pour slides.
+
+new$urls$regular
+# https://api.unsplash.com/photos/xyGR1HKVNpY?client_id=cvtne6r6JhQ2hYh_ZVw80BeNLVrvmDrDqKLP7qOhyyY
+
+# Nom auteur
+
+new$user$name
+# "Brooke Cagle"
+
+# URL page
+
+new$links$html
+# "https://unsplash.com/photos/AxLrxJz_sKU"
+
+# Loop----
+
+unsplash_db <- tibble(unsplash_url = character(),
+                      unsplash_name = character(),
+                      unsplash_html = character(),
+                      credits = character()
+                      )
+
+for (i in 1:length(unsplash_id)) {
+
+  temp_var <- unsplash_id[i]
+
+  api_url <- modify_url("https://api.unsplash.com/",
+                        path = paste0("photos/",temp_var),
+                        query = paste0("client_id=",application_id)
+                        )
+
+  response <- GET (url = api_url)
+
+  d <- content(response, as="text", encoding = "UTF-8")
+
+  new <- fromJSON(d)
+
+  unsplash_db <- add_row(unsplash_db,
+                         unsplash_url = new$urls$regular,
+                         unsplash_name = new$user$name,
+                         unsplash_html = new$links$html,
+                         credits = paste0("<br><a href='",new$links$html,"'>",new$user$name,"</a>")
+                         )
+}
+
+
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#D2202B",
+  secondary_color = "#D2202B",
+  inverse_header_color = "#FFFFFF",
+  link_color = "#676C72",
+    header_font_google = google_font("Josefin Sans")
+
+)
+```
+
+class: hide_logo, title-slide, bottom
+background-image: url(`r unsplash_db$unsplash_url[1]`)
+background-size: cover
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+### `r rmarkdown::metadata$author` (`r rmarkdown::metadata$team`), `r rmarkdown::metadata$coauthors`
+
+### `r rmarkdown::metadata$date`
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">Les slides de présentation par Nicolas Bressoud sont soumises à une licence <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></a></p>
+
+---
+class: left
+
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "img/hep.png")
+```
+
+```{r xaringan-progress-bar, echo=FALSE}
+xaringanExtra::use_progress_bar(color = "#D2202B", location = "top", height = "12px")
+
+```
+
+
+### Thèmes
+
+- Approche pédagogique basée sur les **forces personnelles** des élèves
+
+- Développement du **climat de classe**
+
+- Perspectives en contexte d'**inclusion scolaire**
+
+--
+
+### Mots-clés
+Forces de caractère (ressources, forces personnelles), Climat de classe, Inclusion scolaire
+
+--
+### Direction de thèse
+
+**Directrice principale :** Pr. Dr. Andrea Samson, université de Fribourg
+
+**Co-directrice :** Pr. Dr. Rebecca Shankland, université Lyon Lumière 2
+
+**Co-directeur :** Pr. Dr. Philippe Gay, HEP Vaud
+
+
+---
+class: middle left
+
+.pull-left[
+
+### Structure
+
+1. Contexte
+
+1. Zoom sur **les forces de caractère**
+
+1. Matériel pédagogique
+
+1. Premières données
+
+1. Perspectives
+
+1. Divers
+
+]
+
+.pull-right[
+
+```{r out.width = '90%', echo=FALSE}
+
+if(!file.exists("img/qr.svg"))
+  {
+  library(qrcode)
+
+  id <- rmarkdown::metadata$github_id
+  repo <- rmarkdown::metadata$github_repo
+
+  qr <- paste0("https://",id,".github.io/",repo)
+
+  qr <- qr_code(qr)
+
+  generate_svg(qr, filename = "img/qr.svg")
+ 
+}
+
+knitr::include_graphics("img/qr.svg")
+```
+
+
+]
+---
+class: title-slide, inverse
+background-image: url(`r unsplash_db$unsplash_url[2]`)
+background-size: cover
+
+# Contexte
+
+---
+class: left
+
+# Contexte
+
+---
+
+class: middle
+
+.left[
+
+
+## &#x1F64F; Merci !
+
+]
+
+--
+
+.right[
+
+
+Crédits Photo par ordre d'apparition :
+
+`r unsplash_db$credits`
+
+]
