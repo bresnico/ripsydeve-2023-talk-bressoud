@@ -1,0 +1,46 @@
+---
+output: 
+  bookdown::word_document2:
+    toc: false
+    reference_docx: "template/template.docx"
+csl: "style/apa.csl"
+bibliography: "bib/references.json"
+knit: (function(input, ...) {
+    rmarkdown::render(
+      input,
+      output_file = paste0(
+        "output/","abstract-", format(Sys.time(), '%Y%m%d'), '.docx'
+      ),
+      envir = globalenv()
+    )
+  })
+---
+
+Nombre de mots : NUMWORDS !
+
+# Résumé
+
+En contexte d’inclusion scolaire, les enseignants sont appelés à inventer et mettre en œuvre des pistes pédagogiques pour prendre soin de chacun tout en considérant le groupe.
+Cette prise en compte simultanée peut être observée à travers la notion de climat de classe, à voir en tant qu’indicateur de la qualité des relations perçues par les enfants et les enseignants [@bressoud2021].
+
+Issu d’une approche focalisée sur les ressources des personnes, en psychologie positive, le thème des forces de caractère [@peterson2004] paraît jouer un rôle dans le développement d’un climat de classe dit positif [@quinlan2014 ; @white2015].
+Les activités orientées sur les forces de caractère semblent favoriser une orientation de l’attention sur les ressources individuelles et stimuler une perception favorable des différences entre individus.
+
+Pourtant, dans un contexte de classe inclusive, peu d’éléments sont connus sur ce type d’intervention [@wehmeyer2021].
+Cette présentation s’inscrit dans une recherche quasi expérimentale qui vise à mieux comprendre les effets potentiels des forces de caractère sur le climat de classe en contexte hétérogène.
+
+Le matériel pédagogique construit pour l’intervention a été développé par les enseignants et les chercheurs [@bressoud2022f].
+10 classes ont été réparties en 2 groupes.
+Les enseignantes des classes du groupe expérimental ont suivi une formation pour découvrir et expérimenter les forces de caractère ainsi que prendre connaissance des modalités d’utilisation du matériel.
+Leurs interventions pédagogiques ont été supervisées pendant 9 semaines.
+
+Les élèves ont répondu à des questions d’ordre quantitatif et qualitatif.
+Parmi les variables étudiées, la fréquence d’utilisation des forces rapporté par chaque enfant a été prise en compte ainsi que l’état de la qualité des relations interpersonnelles dans la classe.
+
+Les premières analyses de données seront présentées et discutées.
+
+# Mots-clés :
+Climat de classe, relations interpersonnelles, forces de caractère
+
+# Références : 
+
