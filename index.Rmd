@@ -9,7 +9,7 @@ github_id: "bresnico"
 github_repo: "ripsydeve-2023-talk-bressoud"
 unsplash_app_id: "cvtne6r6JhQ2hYh_ZVw80BeNLVrvmDrDqKLP7qOhyyY"
 unsplash_id:
-  - 2VMDforsMBI
+  - P5PhmW-OoJg
   - lVDnLUACI18
   - Cecb0_8Hx-o
   - 9OKGEVJiTKk
@@ -140,7 +140,7 @@ style_duo_accent(
   secondary_color = "#D2202B",
   inverse_header_color = "#FFFFFF",
   inverse_text_shadow = TRUE,
-  title_slide_text_color = "#FFFFFF",
+  title_slide_text_color = "black",
   link_color = "#676C72",
     header_font_google = google_font("Josefin Sans")
 
@@ -168,7 +168,8 @@ class: left
 
 ```{r xaringan-logo, echo=FALSE}
 xaringanExtra::use_logo(
-  image_url = "img/hep.png")
+  image_url = "img/logo_merged_unif_hep_cheers_rognage.png")
+  
 ```
 
 ```{r xaringan-progress-bar, echo=FALSE}
@@ -205,19 +206,21 @@ class: middle left
 
 .pull-left[
 
-### Structure
+### Plan
 
-1. Contexte
+1. Introduction
 
-1. Zoom sur **les forces de caractère**
+1. Design de recherche
 
-1. Matériel pédagogique
+1. Matériel pédagogique et méthodologie
 
-1. Premières données
+1. Données
 
-1. Perspectives
+1. Résultats
 
-1. Divers
+1. Discussion
+
+1. Conclusion
 
 ]
 
