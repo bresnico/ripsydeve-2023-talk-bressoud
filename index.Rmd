@@ -9,12 +9,12 @@ github_id: "bresnico"
 github_repo: "ripsydeve-2023-talk-bressoud"
 unsplash_app_id: "cvtne6r6JhQ2hYh_ZVw80BeNLVrvmDrDqKLP7qOhyyY"
 unsplash_id:
-  - P5PhmW-OoJg
-  - lVDnLUACI18
-  - Cecb0_8Hx-o
-  - 9OKGEVJiTKk
-  - KgLtFCgfC28
-  - mgfcRci18So
+  - AEallbg9q_A
+  - mZtdV4eDsT0
+  - KT4dOfvtZSg
+  - QGPmWrclELg
+  - pQuCwYXXZsk
+  - nFkybEld8B0
   - a1O67ZQmaYc
 background_position: "1050px 20px"
 background_size: "100px"
@@ -140,7 +140,7 @@ style_duo_accent(
   secondary_color = "#D2202B",
   inverse_header_color = "#FFFFFF",
   inverse_text_shadow = TRUE,
-  title_slide_text_color = "black",
+  title_slide_text_color = "#FFFFFF",
   link_color = "#676C72",
     header_font_google = google_font("Josefin Sans")
 
@@ -163,6 +163,13 @@ background-size: cover
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">Les slides de présentation par Nicolas Bressoud sont soumises à une licence <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></a></p>
 
 ---
+
+class: center, middle, hide_logo
+
+![](img/logo_merged_unif_hep_cheers_rognage.png)
+
+
+---
 class: left
 
 
@@ -180,16 +187,18 @@ xaringanExtra::use_progress_bar(color = "#D2202B", location = "top", height = "1
 
 ### Thèmes
 
-- Approche pédagogique basée sur les **forces personnelles** des élèves
+**Pédagogie spécialisée** et **psychologie positive**
 
-- Développement du **climat de classe**
+Approche pédagogique basée sur les **forces personnelles** des élèves
 
-- Perspectives en contexte d'**inclusion scolaire**
+Développement du **climat de classe**
+
+Perspectives en contexte d'**inclusion scolaire**
 
 --
 
 ### Mots-clés
-Forces de caractère (ressources, forces personnelles), Climat de classe, Relations interpersonnelles, Inclusion scolaire
+Forces de caractère (ressources, forces personnelles), Climat de classe, Relations interpersonnelles
 
 --
 ### Direction de thèse
@@ -198,13 +207,13 @@ Forces de caractère (ressources, forces personnelles), Climat de classe, Relati
 
 **Co-directrice :** Pr. Dr. Rebecca Shankland, université Lyon Lumière 2
 
-**Co-directeur :** Pr. Dr. Philippe Gay, HEP Vaud
-
+**Co-directeur :**Pr. Dr. Philippe Gay, HEP Vaud
 
 ---
 class: middle left
 
 .pull-left[
+
 
 ### Plan
 
@@ -214,19 +223,18 @@ class: middle left
 
 1. Matériel pédagogique et méthodologie
 
-1. Données
-
 1. Résultats
 
 1. Discussion
 
 1. Conclusion
 
+
 ]
 
 .pull-right[
 
-```{r out.width = '90%', echo=FALSE}
+```{r out.width = '80%', echo=FALSE}
 
 if(!file.exists("img/qr.svg"))
   {
@@ -253,108 +261,256 @@ class: title-slide, inverse
 background-image: url(`r unsplash_db$unsplash_url[2]`)
 background-size: cover
 
-# Contexte
+# Introduction
 
 ---
 class: left
 
-# Contexte
+# Introduction
 
-- état des enjeux !
-- on a besoin de quoi ?
+*La question de l'enseignement en classe hétérogène. Problématiser. [(source)]()*
+
+### Contexte d'inclusion scolaire
+
+situer, fonder, définir [(source)]()
+
+### Notion de climat de classe
+
+situer, fonder, définir [(source)]()
+
+**interdépendances positives** et **pouvoir d'agir**
+
+---
+class: center, middle
+
+## Interdépendances positives
+**et**
+## Pouvoir d'agir
+
+---
+class: left
+
+# Introduction
+
+*L'enjeu : le keypoint, ce qui lance tout. la promesse.*
+
+### Psychologie positive
+
+définir, pertinence pour le champs de la Pédagogie spécialisée. Gable et Haidt
+
+### Forces de caractère
+
+.pull-left[
+- Origine et définition [(Peterson et Seligman, 2004)]()
+- Potentiel à l'école (e.g., [Quinlan et al, 2014]() ; [White et Waters, 2015]())
+]
+
+.pull-right[
+- Rôle dans le **pouvoir d'agir** et les **interdépendances positives** [(Linkins et al., 2015)]()
+- exemples....
+]
+
+---
+
+class: center, middle, hide_logo
+background-image: url("img/0.png")
+background-size: cover
+
+![les 24 forces - Editions Savitri / Laure Coutaz](https://www.editions-savitri.ch/wp-content/uploads/2023/05/frise-front.jpg)
 
 ---
 class: title-slide, inverse
 background-image: url(`r unsplash_db$unsplash_url[3]`)
 background-size: cover
 
-# Zoom sur les forces de caractère
-
+# Design de recherche
 
 ---
 class: left
 
-# Zoom sur les forces de caractère
+# Design de recherche
 
-- ce que c'est
-- contextualiser sur pouvoir d'agir et interdépendances positives
--  un ouitl parmi d'autres
-- définir
-- origine
-- exemple
+### Objectif
 
+Comprendre les effets potentiels des **forces de caractère** sur le **climat de class** en contexte hétérogène ?
+
+### Hypothèses
+
+1
+
+2
+
+### Dispositif quasi-expérimental
+
+.pull-left[
+- Utilisation des forces [(Govindji et Linley)]()
+- Orientation reconnaissante [(source)]()
+- Satisfaction professionnelle [(source)]()
+]
+
+.pull-right[
+- Retours qualitatifs (définiition de soi)
+- Sociogramme [(source)]()
+]
 
 ---
 class: title-slide, inverse
 background-image: url(`r unsplash_db$unsplash_url[4]`)
 background-size: cover
 
-# Matériel pédagogique
+# Matériel pédagogique et méthodologie
 
 ---
 class: left
 
-# Matériel pédagogique
+# Matériel pédagogique et méthodologie
 
-- ce que c'est
-- coeur pédagogique
-- comment on l'a construit, POC, avec les gens
-- images
-- exemple d'activité
+*By teachers for teachers*
+
+### A chacun ses forces et forts ensemble
+
+.pull-left[
+Connaître
+
+Observer chez autrui
+
+Observer chez soi
+]
+
+.pull-right[
+Utiliser
+
+Célébrer
+]
+
+### Dispositif
+
+Formation continue pour les enseignant·es intéressé·es
+
+Coaching sur 9 semaines à raison de 45 minutes par semaine via le site ["les forces dans ma classe !"](https://bresnico.github.io/les-forces-dans-ma-classe/) et une équipe Teams
+
 
 ---
 class: title-slide, inverse
 background-image: url(`r unsplash_db$unsplash_url[5]`)
 background-size: cover
 
-# Premières données
+# Résultats
 
 ---
 class: left
 
-# Premières données
+# Résultats
 
-- notre question de recherche
-- nos H
-- notre design pour récolter
+*Premières explorations partielles*
 
-- notre timeline (état actuel)
+### Participation
 
-- nos premières données
-- notre première interprétation
+Profs
+
+| Groupe       | N   | Âge moyen (SD) | Sexe (Hommes/Femmes) | Niveau d'éducation |
+|--------------|-----|----------------|----------------------|--------------------|
+| Expérimental | 50  | 35.2 (6.8)     | 28/22                | Bac+3              |
+| Contrôle     | 45  | 34.6 (7.1)     | 25/20                | Bac+3              |
+
+Elèves
+
+| Groupe       | N   | Âge moyen (SD) | Sexe (Hommes/Femmes) | Niveau d'éducation |
+|--------------|-----|----------------|----------------------|--------------------|
+| Expérimental | 50  | 35.2 (6.8)     | 28/22                | Bac+3              |
+| Contrôle     | 45  | 34.6 (7.1)     | 25/20                | Bac+3              |
+
+---
+class: left
+
+# Résultats
+
+*Premières explorations partielles*
+
+### Premières explorations des scores
+
+Tableau 2. Scores moyens et écarts-types pour les variables A et B
+
+| Groupe       | Variable A (M ± SD) | Variable B (M ± SD) |
+|--------------|---------------------|---------------------|
+| Expérimental | 75.3 ± 8.6          | 65.1 ± 9.4          |
+| Contrôle     | 70.2 ± 7.9          | 63.8 ± 8.1          |
+
+
+---
+class: left
+
+# Résultats
+
+*Premières explorations partielles*
+
+### Premières analyses de contenus
+
+---
+class: left
+
+# Résultats
+
+*Premières explorations partielles*
+
+### Prochaines analyses
+
+- onva faire ça
+- et ça.,.
+- et ça...
 
 ---
 class: title-slide, inverse
 background-image: url(`r unsplash_db$unsplash_url[6]`)
 background-size: cover
 
-# Perspectives
+# Discussion
 
 ---
 class: left
 
-# Perspectives
+# Discussion
 
-- la suite pour cette étude
+### Premières interprétations
 
-- la suite de manière plus large sur la question générale
+- premières interprétations
 
+- ce quii étonne.
+
+- ce qui coince.
+
+.pull-left[
+### Limites
+
+truc
+]
+
+.pull-right[
+
+### Perspectives
+
+implication pour la suite des analyses et le futur
+
+]
 ---
 class: title-slide, inverse
 background-image: url(`r unsplash_db$unsplash_url[7]`)
 background-size: cover
 
-# Divers
+# Conclusion
 
 ---
-class: left
+class: center, middle
 
-# Divers
+# Conclusion
 
-- réflexions plus larges
-- rôle de l'école
-- CPS et école
-- moyens pédagogiques ?
+récapitulatif des points clés. Pas se saboter.
+
+key message sur **inclusion**, **interdépendances positives**, **pouvoir d'agir**. Gros dossier. Pas seulement les forces même si les force  sont un outil qui paraît important.
+
+Aller dans l'**identité professionnelle** des enseignants.
+
+Pouvoir du *design by teachers for teachers*
 
 ---
 
