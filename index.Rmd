@@ -316,7 +316,7 @@ class: center, middle, hide_logo
 background-image: url("img/0.png")
 background-size: cover
 
-![les 24 forces - Editions Savitri / Laure Coutaz](https://www.editions-savitri.ch/wp-content/uploads/2023/05/frise-front.jpg)
+![les 24 forces - Editions Savitri / Laure Coutaz](img/frise.png)
 
 ---
 class: title-slide, inverse
