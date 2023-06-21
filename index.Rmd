@@ -544,7 +544,7 @@ class: left
 ### Premières analyses de contenus 
 
 
-```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="image d'illustration"}
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Comparaison temps 1 - temps 2 pour la classe K"}
 knitr::include_graphics("img/socio.png")
 ```
 
