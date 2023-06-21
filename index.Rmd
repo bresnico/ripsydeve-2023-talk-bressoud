@@ -2,7 +2,7 @@
 title: "A chacun ses forces et forts ensemble !"
 subtitle: "Intervention pédagogique visant à développer le climat de classe auprès de 8-12 ans"  
 author: "Nicolas Bressoud"
-date: "26 juin 2023"
+date: "27 juin 2023"
 team: "HEP-VS | PH-VS"
 coauthors: "Rebecca Shankland, Philippe Gay, Andrea C. Samson"
 github_id: "bresnico"
@@ -544,7 +544,7 @@ class: left
 ### Premières analyses de contenus 
 
 
-```{r, echo=FALSE, out.width="50%", fig.cap="image d'illustration"}
+```{r, echo=FALSE, out.width="50%", fig.align="center", fig.cap="image d'illustration"}
 knitr::include_graphics("img/socio.png")
 ```
 
