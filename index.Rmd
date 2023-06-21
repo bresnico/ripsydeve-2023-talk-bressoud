@@ -166,7 +166,10 @@ background-size: cover
 
 class: center, middle, hide_logo
 
-![](img/logo_merged_unif_hep_cheers_rognage.png)
+
+```{r, echo=FALSE, out.width="70%", fig.cap=""}
+knitr::include_graphics("img/logo_merged_unif_hep_cheers_rognage.png")
+```
 
 
 ---
@@ -201,13 +204,14 @@ Perspectives en contexte d'**inclusion scolaire**
 Forces de caractère (ressources, forces personnelles), Climat de classe, Relations interpersonnelles
 
 --
+
 ### Direction de thèse
 
 **Directrice principale :** Pr. Dr. Andrea C. Samson, université de Fribourg
 
 **Co-directrice :** Pr. Dr. Rebecca Shankland, université Lyon Lumière 2
 
-**Co-directeur :**Pr. Dr. Philippe Gay, HEP Vaud
+**Co-directeur :** Dr. Philippe Gay, HEP Vaud
 
 ---
 class: middle left
@@ -268,17 +272,27 @@ class: left
 
 # Introduction
 
-*La question de l'enseignement en classe hétérogène. Problématiser. [(source)]()*
+*Enseignement en classe hétérogène : le défi de l'inclusion scolaire. [(Pelgrims, 2016)](https://archive-ouverte.unige.ch/unige:91017)*
+
+*Comment enseigner - avec bonheur - à la fois au service de chacun·e et du climat de classe ? [(Bressoud, 2022)](https://www.cairn.info/revue-phronesis-2023-2-page-114.htm)*
+
+--
 
 ### Contexte d'inclusion scolaire
 
-situer, fonder, définir [(source)]()
+Développement des pratiques éducatives inclusives [(Ebersold, 2017)](https://www.cairn.info/revue-francaise-de-pedagogie-2017-4-page-121.htm)
+
+Scolarisation ordinaire à plein temps à proximité du lieu de domicile. [(CSPS, 2023)](https://www.csps.ch/themes/ecole-et-integration/integration-scolaire/reponse-2)
+
+Adaptation de l'école aux besoins des enfants. [(CSPS, 2023)](https://www.csps.ch/themes/ecole-et-integration/integration-scolaire/reponse-2)
+
+--
 
 ### Notion de climat de classe
 
-situer, fonder, définir [(source)]()
+Définie par la qualité des interactions en classe [(Bressoud, Dessibourg, & Gay, 2021)](https://orfee.hepl.ch/handle/20.500.12162/4910)
 
-**interdépendances positives** et **pouvoir d'agir**
+Influencée par le développement des **interdépendances positives** et du **pouvoir d'agir** [(Bressoud & Gay, 2022)](https://ojs.szh.ch/revue/article/view/1062)
 
 ---
 class: center, middle
@@ -292,22 +306,29 @@ class: left
 
 # Introduction
 
-*L'enjeu : le keypoint, ce qui lance tout. la promesse.*
+*De manière générale, comment soutenir une école inclusive à travers le développement d'un climat scolaire dit positif ?*
+
+*Quelles peuvent être les interventions pertinentes, en particulier dans le champ de la psychologie positive ?*
+
+--
 
 ### Psychologie positive
 
-définir, pertinence pour le champs de la Pédagogie spécialisée. Gable et Haidt
+Etude des conditions et processus qui contribuent à l'épanouissement et au fonctionnement optimal des individus, groupes et institutions. [(Gable & Haidt, 2005)](https://journals.sagepub.com/doi/10.1037/1089-2680.9.2.103)
+
+Observation des effets des interventions [(e.g. Carr et al., 2021)](https://www.tandfonline.com/doi/full/10.1080/17439760.2020.1818807)
+
+--
 
 ### Forces de caractère
 
 .pull-left[
-- Origine et définition [(Peterson et Seligman, 2004)]()
-- Potentiel à l'école (e.g., [Quinlan et al, 2014]() ; [White et Waters, 2015]())
+- Un *trait potentiel* de caractère vertueux et dynamique [(Peterson & Seligman, 2004](https://psycnet.apa.org/record/2004-13277-000); [Waters, 2017)](https://www.penguinrandomhouse.com/books/531910/the-strength-switch-by-lea-waters-phd/)
 ]
 
 .pull-right[
-- Rôle dans le **pouvoir d'agir** et les **interdépendances positives** [(Linkins et al., 2015)]()
-- exemples....
+- Rôle dans le **pouvoir d'agir** et les **interdépendances positives** [(Linkins et al., 2015)](https://www.tandfonline.com/doi/abs/10.1080/17439760.2014.888581)
+- Pertinence scolaire [(e.g.,Quinlan et al, 2015)](https://www.tandfonline.com/doi/abs/10.1080/17439760.2014.920407)
 ]
 
 ---
@@ -329,28 +350,34 @@ background-size: cover
 class: left
 
 # Design de recherche
+.pull-left[
 
 ### Objectif
 
-Comprendre les effets potentiels des **forces de caractère** sur le **climat de class** en contexte hétérogène ?
+Observer les effets potentiels des **forces de caractère** sur le **climat de class** en contexte hétérogène.
+
 
 ### Hypothèses
 
-1
+1. Les élèves qui ont eu le programme rapportent une plus grande **utilisation de leurs forces personnelles**
 
-2
+1. Les programme favorise les **interdépendances positives**
+]
+
+--
+
+.pull-right[
 
 ### Dispositif quasi-expérimental
 
-.pull-left[
-- Utilisation des forces [(Govindji et Linley)]()
-- Orientation reconnaissante [(source)]()
-- Satisfaction professionnelle [(source)]()
-]
+- Utilisation des forces des profs et élèves [(Govindji & Linley, 2007)](https://www.scirp.org/%28S%28lz5mqp453edsnp55rrgjct55%29%29/reference/referencespapers.aspx?referenceid=2319642)
+- Orientation reconnaissante des élèves [(d'après Shankland, 2019)](https://www.cairn.info/la-psychologie-positive--9782100793235-page-157.htm)
+- Satisfaction professionnelle des profs [(d'après Diener et al., 1985)](https://psycnet.apa.org/record/1985-27000-001)
 
-.pull-right[
-- Retours qualitatifs (définiition de soi)
-- Sociogramme [(source)]()
+
+- Rapport à soi et aux autres des élèves (texte libre)
+- Rapport aux autres des élèves (sociogramme)
+- Evaluation subjective du climat par les profs (texte libre)
 ]
 
 ---
@@ -381,13 +408,17 @@ Observer chez soi
 Utiliser
 
 Célébrer
+
+Signature personnelle des forces
 ]
+
+--
 
 ### Dispositif
 
 Formation continue pour les enseignant·es intéressé·es
 
-Coaching sur 9 semaines à raison de 45 minutes par semaine via le site ["les forces dans ma classe !"](https://bresnico.github.io/les-forces-dans-ma-classe/) et une équipe Teams
+Coaching sur 9 semaines à raison de 45 minutes par semaine via le site ["les forces dans ma classe !"](https://bresnico.github.io/les-forces-dans-ma-classe/) et la technologie Microsoft Teams.
 
 
 ---
@@ -402,62 +433,134 @@ class: left
 
 # Résultats
 
-*Premières explorations partielles*
+*Premières explorations sur les 6 classes expérimentales et les 4 classes contrôle.*
 
 ### Participation
 
-Profs
+Profs au temps 1
 
-| Groupe       | N   | Âge moyen (SD) | Sexe (Hommes/Femmes) | Niveau d'éducation |
-|--------------|-----|----------------|----------------------|--------------------|
-| Expérimental | 50  | 35.2 (6.8)     | 28/22                | Bac+3              |
-| Contrôle     | 45  | 34.6 (7.1)     | 25/20                | Bac+3              |
+| Groupe       | N   | Années d'exp. moyen (SD)| Genre (Hommes/Femmes) | 
+|--------------|-----|-------------------------|-----------------------|
+| Expérimental | 6   | 16.0 (10.3)             | 0/6                   |
+| Contrôle     | 4   | 17.3 (12.8)             | 0/4                   |
 
-Elèves
+Elèves au temps 1
 
-| Groupe       | N   | Âge moyen (SD) | Sexe (Hommes/Femmes) | Niveau d'éducation |
-|--------------|-----|----------------|----------------------|--------------------|
-| Expérimental | 50  | 35.2 (6.8)     | 28/22                | Bac+3              |
-| Contrôle     | 45  | 34.6 (7.1)     | 25/20                | Bac+3              |
-
----
-class: left
-
-# Résultats
-
-*Premières explorations partielles*
-
-### Premières explorations des scores
-
-Tableau 2. Scores moyens et écarts-types pour les variables A et B
-
-| Groupe       | Variable A (M ± SD) | Variable B (M ± SD) |
-|--------------|---------------------|---------------------|
-| Expérimental | 75.3 ± 8.6          | 65.1 ± 9.4          |
-| Contrôle     | 70.2 ± 7.9          | 63.8 ± 8.1          |
-
+| Groupe       | N    | Âge moyen (SD) | Genre (Garçons/Filles) |
+|--------------|------|----------------|------------------------|
+| Expérimental | 105  | 9.8 (1.1)      | 55/48 (2 NA)           |
+| Contrôle     | 76   | 9.8 (1.2)      | 42/33 (1 NA)           |
 
 ---
 class: left
 
 # Résultats
 
-*Premières explorations partielles*
+*Scores par groupes et par temps - variables quantitatives*
 
-### Premières analyses de contenus
+### Premières explorations des scores - Profs
+
+Profs sur la variable **utilisation des forces**, par temps et par groupe (max : 7)
+
+|           | Groupe contrôle | Groupe expérimental |
+|-----------|----------------|---------------------|
+| Temps 1   |     M = 5.77, SD = 0.65  (n = 4)   |     M = 5.12, SD = 0.65  (n = 4)     |
+| Temps 2   |     M = 5.73, SD = 0.73  (n = 4)   |     M = 5.67, SD = 0.36 (n = 5)    |
+
+Profs sur la variable **satisfaction professionnelle**, par temps et par groupe (max : 7)
+
+|           | Groupe contrôle | Groupe expérimental |
+|-----------|----------------|---------------------|
+| Temps 1   |     M = 5.74, SD = 0.74  (n = 4)   |     M = 6.05, SD = 0.57   (n = 4)    |
+| Temps 2   |     M = 5.50, SD = 0.93  (n = 4)   |     M = 6.12, SD = 0.36   (n = 5)    |
 
 ---
 class: left
 
 # Résultats
 
-*Premières explorations partielles*
+*Scores par groupes et par temps - variables quantitatives*
+
+### Premières explorations des scores - Elèves
+
+Elèves sur la variable **utilisation des forces**, par temps et par groupe (max : 7)
+
+|           | Groupe contrôle | Groupe expérimental |
+|-----------|----------------|---------------------|
+| Temps 1   | M = 5.50, SD = 0.77   (n = 75)  |     M = 5.05, SD = 1.02    (n = 68)   |
+| Temps 2   | M = 5.25, SD = 0.93   (n = 104) |     M = 5.06, SD = 1.11    (n = 104)  |
+
+Elèves sur la variable **orientation reconnaissante**, par temps et par groupe (max : 5)
+
+|           | Groupe contrôle | Groupe expérimental |
+|-----------|----------------|---------------------|
+| Temps 1   |     M = 4.17, SD = 0.73  (n = 75)   |     M = 4.24, SD = 0.60    (n = 68)   |
+| Temps 2   |     M = 4.13, SD = 0.72   (n = 104) |     M = 4.36, SD = 0.59    (n = 104)  |
+
+---
+class: left
+
+# Résultats [in progress]
+
+*Premières explorations partielles - variables qualitatives*
+
+### Premières analyses de contenus - Exemple 1
+
+**Temps 1** *Je bouge beaucoup. Je fais de l'équitation. J'adore les balades au galop. Je suis assez doué à l'obstacle. J'aime beaucoup les animaux. Je suis très casse-cou. Je me fais mal tout le temps.*
+
+
+**Temps 2** *J'ai 11 ans. Je sais bien galoper et sauter. Je me suis amélioré en maths. Je suis courageuse.*
+
+Accords interjuges autour de : 
+- scores de langage orienté **forces** et **autrui**
+- identification des **contexte** (famille, amis, école, loisirs, soi)
+- identification des buts de **performance** ou d'**accomplissement**
+
+---
+class: left
+
+# Résultats [in progress]
+
+*Premières explorations partielles - variables qualitatives*
+
+### Premières analyses de contenus - Exemple 2
+
+**Temps 1** *Je suis une fille. J'aime les animaux et ma famille. Mon passe-temps c'est jouer avec ma sœur et jouer au jeu de société avec ma famille. Et je sais pas ce que je sais faire.*
+
+
+**Temps 2** *Je fais 1,46 m. J'aime bien être avec mes amis. J'aime aider mes amis. Et ce que je sais bien faire c'est dire pardon.*
+
+Accords interjuges autour de : 
+- scores de langage orienté **forces** et **autrui**
+- identification des **contexte** (famille, amis, école, loisirs, soi)
+- identification des buts de **performance** ou d'**accomplissement**
+---
+class: left
+
+# Résultats [in progress]
+
+*Premières explorations partielles - variables qualitatives*
+
+### Premières analyses de contenus 
+
+
+```{r, echo=FALSE, out.width="50%", fig.cap="image d'illustration"}
+knitr::include_graphics("img/socio.png")
+```
+
+---
+class: left
+
+# Résultats [in progress]
+
+*Premières explorations partielles - variables qualitatives*
 
 ### Prochaines analyses
 
-- onva faire ça
-- et ça.,.
-- et ça...
+- Finalisation de l'évaluation des **351** items **élèves** avec **3** juges
+- Scoring des relations à partir des **sociogrammes**
+- Discussion avec les **retours qualitatifs** des profs
+- Exploration selon les **patterns** profs - élèves
 
 ---
 class: title-slide, inverse
@@ -473,24 +576,27 @@ class: left
 
 ### Premières interprétations
 
-- premières interprétations
+Les effets ne sont pas visibles à travers les premiers tests statistiques chez les élèves (ANOVA à mesures répétées)
 
-- ce quii étonne.
+Les tendances vont dans le sens des hypothèses, ce qui est étonnant et encourageant compte tenu des biais en particlier dans les classes contrôle
 
-- ce qui coince.
+Toutes choses étant égales par ailleurs, en nous basant sure les retours des profs, les **forces de caractère** semblent être un outil pertinent à la condition de l'utiliser au service d'un projet explicite (pas d'effet probable de *l'outil pour l'outil*).
 
 .pull-left[
 ### Limites
 
-truc
+- Validité des échelles utilisées
+- Prudence dans les interprétations
+
 ]
 
 .pull-right[
 
 ### Perspectives
 
-implication pour la suite des analyses et le futur
-
+- Intérêt pédagogique d'un outil *fait par et pour les enseignants
+- Focus sur la climat scolaire en milieu inclusif
+- Observation de l'enfant
 ]
 ---
 class: title-slide, inverse
@@ -504,13 +610,13 @@ class: center, middle
 
 # Conclusion
 
-récapitulatif des points clés. Pas se saboter.
+Il y a un intérêt prépondérant à former et contribuer à outiller les enseignants dans la prise en compte de l'**hétérogénéité**.
 
-key message sur **inclusion**, **interdépendances positives**, **pouvoir d'agir**. Gros dossier. Pas seulement les forces même si les force  sont un outil qui paraît important.
+Le développement des politiques **inclusives** passe par le renforcement des **interdépendances positives** et du **pouvoir d'agir** de toutes les personnes.
 
-Aller dans l'**identité professionnelle** des enseignants.
+La manière de percevoir la différence, notamment avec les **forces de caractère**, a son rôle à jouer.
 
-Pouvoir du *design by teachers for teachers*
+La démarche du **design by teachers for teachers** est un levier de la formation.
 
 ---
 
