@@ -439,7 +439,7 @@ class: left
 
 Profs au temps 1
 
-| Groupe       | N   | Années d'exp. moyen (SD)| Genre (Hommes/Femmes) | 
+| Groupe       | N   | Années d'exp. moyenne (SD) | Genre(H/F)           | 
 |--------------|-----|-------------------------|-----------------------|
 | Expérimental | 6   | 16.0 (10.3)             | 0/6                   |
 | Contrôle     | 4   | 17.3 (12.8)             | 0/4                   |
