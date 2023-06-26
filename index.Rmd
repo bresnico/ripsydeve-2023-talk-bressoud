@@ -148,7 +148,8 @@ style_duo_accent(
 ```
 
 class: hide_logo, inverse, title-slide, bottom
-background-image: url(`r unsplash_db$unsplash_url[1]`)
+<!-- background-image: url(`r unsplash_db$unsplash_url[1]`) -->
+background-image: url("img/0.png")
 background-size: cover
 
 
@@ -260,12 +261,7 @@ knitr::include_graphics("img/qr.svg")
 
 
 ]
----
-class: title-slide, inverse
-background-image: url(`r unsplash_db$unsplash_url[2]`)
-background-size: cover
 
-# Introduction
 
 ---
 class: left
@@ -339,12 +335,6 @@ background-size: cover
 
 ![les 24 forces - Editions Savitri / Laure Coutaz](img/frise.png)
 
----
-class: title-slide, inverse
-background-image: url(`r unsplash_db$unsplash_url[3]`)
-background-size: cover
-
-# Design de recherche
 
 ---
 class: left
@@ -380,12 +370,6 @@ Observer les effets potentiels des **forces de caractère** sur le **climat de c
 - Evaluation subjective du climat par les profs (texte libre)
 ]
 
----
-class: title-slide, inverse
-background-image: url(`r unsplash_db$unsplash_url[4]`)
-background-size: cover
-
-# Matériel pédagogique et méthodologie
 
 ---
 class: left
@@ -421,12 +405,6 @@ Formation continue pour les enseignant·es intéressé·es
 Coaching sur 9 semaines à raison de 45 minutes par semaine via le site ["les forces dans ma classe !"](https://bresnico.github.io/les-forces-dans-ma-classe/) et la technologie Microsoft Teams.
 
 
----
-class: title-slide, inverse
-background-image: url(`r unsplash_db$unsplash_url[5]`)
-background-size: cover
-
-# Résultats
 
 ---
 class: left
@@ -558,16 +536,11 @@ class: left
 ### Prochaines analyses
 
 - Finalisation de l'évaluation des **351** items **élèves** avec **3** juges
-- Scoring des relations à partir des **sociogrammes**
+- Evolution du coefficient de clustering du réseau de relations à partir des **sociogrammes**
 - Discussion avec les **retours qualitatifs** des profs
 - Exploration selon les **patterns** profs - élèves
 
----
-class: title-slide, inverse
-background-image: url(`r unsplash_db$unsplash_url[6]`)
-background-size: cover
 
-# Discussion
 
 ---
 class: left
@@ -594,16 +567,11 @@ Toutes choses étant égales par ailleurs, en nous basant sure les retours des p
 
 ### Perspectives
 
-- Intérêt pédagogique d'un outil *fait par et pour les enseignants
+- Intérêt pédagogique d'un outil *fait par et pour les enseignants*
 - Focus sur la climat scolaire en milieu inclusif
-- Observation de l'enfant
+- Formation et accompagnement
 ]
----
-class: title-slide, inverse
-background-image: url(`r unsplash_db$unsplash_url[7]`)
-background-size: cover
 
-# Conclusion
 
 ---
 class: center, middle
@@ -633,9 +601,5 @@ class: middle
 
 .right[
 
-
-Crédits Photo par ordre d'apparition :
-
-`r unsplash_db$credits`
 
 ]
