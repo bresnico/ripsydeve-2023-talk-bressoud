@@ -508,10 +508,13 @@ Elèves sur la variable **utilisation des forces**, par temps et par groupe (max
 
 **Coefficients**
 
-- (Intercept) : β₀ = 5.5014, SE = 0.1137, t(347) = 48.367, p < .001 ***
-- group : β₁ = -0.4467, SE = 0.1492, t(347) = -2.994, p = .00295 **
-- time2 : β₂ = -0.2468, SE = 0.1649, t(347) = -1.496, p = .13544
-- group:time2 : β₃ = 0.2472, SE = 0.2142, t(347) = 1.154, p = .24920
+| Coefficient | Estimate | Std. Error | t-value | df  | p-value | Significance |
+|-------------|---------:|-----------:|--------:|----:|--------:|:------------:|
+| (Intercept) |     5.50 |       0.11 |   48.37 | 347 |  <.001  |     ***      |
+| group       |    -0.45 |       0.15 |   -3.00 | 347 |   .003  |      **      |
+| time2       |    -0.25 |       0.16 |   -1.50 | 347 |   .135  |              |
+| group:time2 |     0.25 |       0.21 |    1.15 | 347 |   .249  |              |
+
 
 ---
 class: left
@@ -532,10 +535,12 @@ Elèves sur la variable **orientation reconnaissante**, par temps et par groupe 
 
 **Coefficients**
 
-- (Intercept) : β₀ = 4.17067, SE = 0.07493, t(347) = 55.662, p < .001 ***
-- group : β₁ = 0.07404, SE = 0.09830, t(347) = 0.753, p = .452
-- time2 : β₂ = -0.04125, SE = 0.10866, t(347) = -0.380, p = .704
-- group:time2 : β₃ = 0.15472, SE = 0.14108, t(347) = 1.097, p = .274
+| Coefficient | Estimate | Std. Error | t-value | df  | p-value | Significance |
+|-------------|---------:|-----------:|--------:|----:|--------:|:------------:|
+| (Intercept) |     4.17 |       0.07 |   55.67 | 347 |  <.001  |     ***      |
+| group       |     0.07 |       0.10 |    0.75 | 347 |   .452  |              |
+| time2       |    -0.04 |       0.11 |   -0.38 | 347 |   .704  |              |
+| group:time2 |     0.15 |       0.14 |    1.10 | 347 |   .274  |              |
 
 
 
