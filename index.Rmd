@@ -424,15 +424,15 @@ Profs au temps 1
 
 | Groupe       | N   | Années d'exp. moyenne (SD) | Genre(H/F)           | 
 |--------------|-----|-------------------------|-----------------------|
-| Expérimental | 6   | 16.0 (10.3)             | 0/6                   |
-| Contrôle     | 4   | 17.3 (12.8)             | 0/4                   |
+| Expérimental | 6   | 16.0 (10.34)             | 0/6                   |
+| Contrôle     | 4   | 17.3 (12.80)             | 0/4                   |
 
 Elèves au temps 1
 
 | Groupe       | N    | Âge moyen (SD) | Genre (Garçons/Filles) |
 |--------------|------|----------------|------------------------|
-| Expérimental | 105  | 9.8 (1.1)      | 55/48 (2 NA)           |
-| Contrôle     | 76   | 9.8 (1.2)      | 42/33 (1 NA)           |
+| Expérimental | 105  | 9.8 (1.06)      | 55/48 (2 NA)           |
+| Contrôle     | 76   | 9.8 (1.17)      | 42/33 (1 NA)           |
 
 ---
 class: left
