@@ -208,9 +208,9 @@ Forces de caractère (ressources, forces personnelles), Climat de classe, Relati
 
 ### Direction de thèse
 
-**Directrice principale :** Pr. Dr. Andrea C. Samson, université de Fribourg
+**Directrice principale :** Pr. Dr. Andrea C. Samson, Université de Fribourg & UniDistance Suisse
 
-**Co-directrice :** Pr. Dr. Rebecca Shankland, université Lyon Lumière 2
+**Co-directrice :** Pr. Dr. Rebecca Shankland, Université Lyon Lumière 2
 
 **Co-directeur :** Dr. Philippe Gay, HEP Vaud
 
@@ -288,7 +288,7 @@ Adaptation de l'école aux besoins des enfants [(CSPS, 2023)](https://www.csps.c
 
 Définie par la qualité des **interactions en classe** [(Bressoud, Dessibourg, & Gay, 2021)](https://orfee.hepl.ch/handle/20.500.12162/4910)
 
-Influencée par le développement des **interdépendances positives** ([Buchs et al., 2012](https://www.researchgate.net/publication/236344967_Cooperation_et_apprentissage/citation/download) ; [Johnson et Johnson, 1989](https://psycnet.apa.org/record/1989-98552-000)) et du **pouvoir d'agir** ([Bressoud & Gay, 2022)](https://ojs.szh.ch/revue/article/view/1062) ; [Ryan et Deci, 2000](https://psycnet.apa.org/record/2000-13324-007))
+Influencée par le développement des **interdépendances positives** ([Buchs et al., 2012](https://www.researchgate.net/publication/236344967_Cooperation_et_apprentissage/citation/download) ; [Johnson & Johnson, 1989](https://psycnet.apa.org/record/1989-98552-000)) et du **pouvoir d'agir** ([Bressoud & Gay, 2022](https://ojs.szh.ch/revue/article/view/1062) ; [Ryan & Deci, 2000](https://psycnet.apa.org/record/2000-13324-007))
 
 ---
 class: center, middle
@@ -324,7 +324,7 @@ Observation des effets des interventions [(e.g. Carr et al., 2021)](https://www.
 
 .pull-right[
 - Rôle dans le **pouvoir d'agir** et les **interdépendances positives** [(Linkins et al., 2015)](https://www.tandfonline.com/doi/abs/10.1080/17439760.2014.888581)
-- Pertinence scolaire [(e.g.,Quinlan et al, 2015)](https://www.tandfonline.com/doi/abs/10.1080/17439760.2014.920407)
+- Pertinence scolaire [(e.g. Quinlan et al., 2015)](https://www.tandfonline.com/doi/abs/10.1080/17439760.2014.920407)
 ]
 
 ---
@@ -422,17 +422,17 @@ class: left
 
 Profs au temps 1
 
-| Groupe       | N   | Années d'exp. moyenne (SD) | Genre(H/F)           | 
+| Groupe       | N (profs)   | Années d'exp. moyenne (SD) | Genre (H/F)           | 
 |--------------|-----|-------------------------|-----------------------|
 | Expérimental | 6   | 16.0 (10.34)             | 0/6                   |
 | Contrôle     | 4   | 17.3 (12.80)             | 0/4                   |
 
 Elèves au temps 1
 
-| Groupe       | N    | Âge moyen (SD) | Genre (Garçons/Filles) |
-|--------------|------|----------------|------------------------|
-| Expérimental | 105  | 9.8 (1.06)      | 55/48 (2 NA)           |
-| Contrôle     | 76   | 9.8 (1.17)      | 42/33 (1 NA)           |
+| Groupe       | N (élèves)    | Âge en moyenne (SD) | Genre (H/F)    |
+|--------------|------|----------------|---------------------------|
+| Expérimental | 105  | 9.8 (1.06)      | 55/48 (2 NA)             |
+| Contrôle     | 76   | 9.8 (1.17)      | 42/33 (1 NA)             |
 
 ---
 class: left
