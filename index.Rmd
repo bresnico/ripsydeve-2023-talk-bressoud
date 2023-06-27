@@ -689,6 +689,8 @@ class: middle
 
 ## &#x1F64F; Merci !
 
+nicolas.bressoud@hepvs.ch
+
 ]
 
 --
